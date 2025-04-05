@@ -1,0 +1,39 @@
+*
+{
+    box-sizing: border-box;
+}
+.cardcont
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.wcard
+{
+    height: 450px;
+    width: 233px;
+}
+.wcard img
+{
+    height: 310px;
+    width: 232px;
+    border-radius: 15px 15px 0px 0px;
+}
+.wcard h4
+{
+    margin-left: 20px;
+    color:rgb(254, 2, 2);
+    margin-top: 10px;
+    font-size: larger;
+}
+.wcard p
+{
+    text-align: justify;
+    margin-top: 10px;
+}
+/* .wcard button
+{
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+} */

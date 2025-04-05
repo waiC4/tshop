@@ -1,0 +1,47 @@
+.cont
+{
+    margin-top: 30px;
+   display: flex;
+   justify-content: center;
+}
+.pdetails
+{
+    display: flex;
+    width: 470px;
+    border: 2px solid gray;
+    border-radius: 12px 0 0 0 ;
+    height: 280px;
+    
+}
+.pdetails img
+{
+    border-radius: 10px 0px 0 0;
+    width: 200px;
+    margin-right: 15px;
+}
+.pdetails h4
+{
+    
+    color: brown;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.pdetails p
+{
+   text-align: justify; 
+   font-size: large;
+   margin-top:10px;
+   color:rgb(1, 1, 76);
+   padding-right: 15px;
+}
+.pdetails button
+{
+    margin-top: 100px;
+    padding: 5px 20px 5px 20px;
+    font-weight: 700;
+    font-size:medium;
+    border-radius: 5px;
+    color: red;
+
+}

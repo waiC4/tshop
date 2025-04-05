@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-boxs;
+}
+.cardcont {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.mcard {
+  width: 233px;
+  height: 450px;
+
+}
+.mcard img {
+  width: 232px;
+  height: 310px;
+  border-radius: 15px 15px 0px 0px;
+}
+.mcard button {
+  margin-top: 20px;
+  bottom: 10px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+.mcard p {
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.mcard h4 
+{
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: larger;
+  color: rgb(254, 2, 2);
+}

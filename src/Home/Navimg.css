@@ -1,0 +1,87 @@
+.navimg {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.image1 img {
+  height: 430px;
+  width: 28vw;
+}
+.image3 img {
+  height: 430px;
+  width: 28vw;
+}
+.image2 img {
+  height: 430px;
+  width: 42vw;
+}
+
+.text1 {
+  position: absolute;
+  margin-left: 130px;
+  margin-top: -80px;
+  font-size: x-large;
+}
+.middle {
+  opacity: 0;
+}
+.hovef1:hover .middle {
+  opacity: 1;
+}
+.hovef1:hover .image1 {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.text2 {
+  position: absolute;
+  margin-left: 230px;
+  margin-top: -80px;
+  font-size: x-large;
+}
+.hovef2:hover .middle {
+  opacity: 1;
+}
+.hovef2:hover .image2 {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.text3 {
+  position: absolute;
+  margin-left: 130px;
+  margin-top: -80px;
+  font-size: x-large;
+}
+.hovef3:hover .middle {
+  opacity: 1;
+}
+.hovef3:hover .image3 {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.heading {
+  text-align: center;
+  margin-top: 35px;
+  font-size: 30px;
+  font-weight: 900;
+}
+.message {
+  background-color: rgb(231, 252, 74);
+  width: 25%;
+  margin-left: 37.5%;
+}
+.message p {
+  padding: 10px 0px 10px 0px;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 10px;
+}
+.newdrops p
+{
+  font-size: xx-large;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 30px;
+}

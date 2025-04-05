@@ -1,0 +1,19 @@
+.newcard {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.ncard p {
+  font-size: large;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.ncard img {
+  width: 232px;
+  height: 310px;
+}
+.ncard:hover
+{
+  cursor: pointer;
+}

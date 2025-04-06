@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import "./Navbar.css";
+import { useSelector } from "react-redux";
 
 export default function Navbar() {
+  const { totalQuantity } = useSelector((state) => state.cart);
   return (
     <>
       <div className="salebar">
@@ -21,9 +23,10 @@ export default function Navbar() {
         <Link to={"/Men"} className="second">
           MEN
         </Link>
-        <Link to={"/Cart"} className="second">
-          CART
+        <Link to={"/Cart"} className="second bag">
+          BAG
         </Link>
+        <div className="circle">{totalQuantity}</div>
         {/* <div className="third">BAG</div> */}
       </div>
       {/* <div className="heading">

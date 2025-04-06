@@ -41,7 +41,7 @@ const Cart = () => {
             >
               <img src={item.img} alt={item.Title} style={{ width: "100px" }} />
               <div className=" flex flex-col ml-8 font-bold">
-                <h3>Book Title : {item.Title}</h3>
+                <h3>Title : {item.title}</h3>
                 <p>Price: Rs. {item.Price}</p>
                 <p>Quantity: {item.quantity}</p>
                 <p>Total: {item.totalPrice}</p>

@@ -1,20 +1,20 @@
 [
     {
-        "id":1,
+        "id":"n1",
         "img":"/images/4.jpg",
         "title":"Product 1",
         "desc":"This is the description about product 1",
         "Price": 600
     },
     {
-        "id":2,
+        "id":"n2",
         "img":"/images/5.jpg",
         "title":"Product 2",
         "desc":"This is the description about product 2",
         "Price": 700
     },
     {
-        "id":3,
+        "id":"n3",
         "img":"/images/6.jpg",
         "title":"Product 3",
         "desc":"This is the description about product 3",

@@ -58,3 +58,20 @@
 {
   color: black;
 }
+.circle
+{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color:black;
+  position: absolute;
+  top: 60px;
+  right: 80px;
+  color: white;
+  text-align: center;
+}
+.bag:hover~ .circle
+{
+  background-color:red;
+  color: yellow;
+}

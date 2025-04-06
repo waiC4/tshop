@@ -4,6 +4,7 @@ import img from "./images/img1.jpg";
 import img1 from "./images/img3.jpg";
 import img2 from "./images/img2.jpg";
 import Newdrops from "../newdrops/Newdrops";
+import { Link } from "react-router-dom";
 
 export default function Navimg() {
   return (
@@ -18,7 +19,10 @@ export default function Navimg() {
       <div className="navimg">
         <div className="hovef1">
           <div className="image1">
-            <img src={img} alt="" />{" "}
+            <Link to={"/Women"}>
+              {" "}
+              <img src={img} alt="" />{" "}
+            </Link>
           </div>
           <div className="middle">
             <div className="text1">Shop Women</div>
@@ -27,7 +31,10 @@ export default function Navimg() {
 
         <div className="hovef2">
           <div className="image2">
-            <img src={img2} alt="" />{" "}
+            <Link to={"/New"}>
+              {" "}
+              <img src={img2} alt="" />{" "}
+            </Link>
           </div>
           <div className="middle">
             <div className="text2">Shop New</div>
@@ -36,7 +43,10 @@ export default function Navimg() {
 
         <div className="hovef3">
           <div className="image3">
-            <img src={img1} alt="" />{" "}
+            <Link to={"/Men"}>
+              {" "}
+              <img src={img1} alt="" />{" "}
+            </Link>
           </div>
           <div className="middle">
             <div className="text3">Shop Men</div>

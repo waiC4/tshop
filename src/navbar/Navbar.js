@@ -8,7 +8,11 @@ export default function Navbar() {
   return (
     <>
       <div className="salebar">
-        <p>Sale is on! 25% off sitewide using TEES25 at checkout</p>
+        <p>
+          <span className="flash-text">
+            Sale is on! 25% off sitewide using TEES25 at checkout
+          </span>
+        </p>
       </div>
       <div className="navbar">
         <Link to={"/"} className="first">

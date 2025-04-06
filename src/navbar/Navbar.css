@@ -1,3 +1,14 @@
+@keyframes flash {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.flash-text {
+  animation: flash 2s step-start infinite;
+}
 .salebar {
   display: flex;
   height: 50px;
@@ -5,10 +16,11 @@
   background-color: black;
   justify-content: center;
   align-items: center;
+
 }
 .salebar p {
   color: white;
-  font-weight: 700;
+  font-size: 20px;
 }
 .navbar {
   display: grid;

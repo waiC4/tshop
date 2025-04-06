@@ -15,9 +15,16 @@
     },
     {
         "id":"n3",
-        "img":"/images/6.jpg",
+        "img":"/images/9.jfif",
         "title":"Product 3",
         "desc":"This is the description about product 3",
         "Price": 800
+    },
+    {
+        "id":"n4",
+        "img":"/images/8.jfif",
+        "title":"Product 4",
+        "desc":"This is the description about product 4",
+        "Price": 600
     }
 ]
